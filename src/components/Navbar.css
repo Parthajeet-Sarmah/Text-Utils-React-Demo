@@ -1,0 +1,19 @@
+.cp 
+{
+    width: 20px;
+    margin-left: 6px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+input#toggle:checked ~ .cp
+{
+    border: 2px solid black;
+}
+.yellow
+{
+    background-color: yellow;
+}
+.green
+{
+    background-color: green;
+}
